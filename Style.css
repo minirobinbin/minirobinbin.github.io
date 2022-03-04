@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 4px;
+    color: #FFFDD0;
+   text-align: center;
+}
+
+
+p {
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+}
+
+div {
+    color: aliceblue;
+}
+
+.footer .footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
