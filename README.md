@@ -1,3 +1,0 @@
-# itspikachugaming.github.io
-
-hello
