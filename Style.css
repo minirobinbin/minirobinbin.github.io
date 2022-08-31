@@ -1,3 +1,11 @@
-body {
-	text_colour: blue
-{
+.footer .footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
