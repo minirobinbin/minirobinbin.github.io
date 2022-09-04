@@ -1,3 +1,141 @@
+Last login: Sat Sep  3 20:16:41 on console
+robinxiong@Robins-MacBook-Pro ~ % ssh pi@192.168.1.130
+pi@192.168.1.130's password: 
+Linux raspberrypi 5.15.56-v8+ #1575 SMP PREEMPT Fri Jul 22 20:31:26 BST 2022 aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Sep  2 16:08:15 2022 from 192.168.1.27
+pi@raspberrypi:~ $ sudo nano /etc/samba/smb.conf
+pi@raspberrypi:~ $ sudo smbpasswd -a Lina
+New SMB password:
+Retype new SMB password:
+Failed to add entry for user Lina.
+pi@raspberrypi:~ $ sudo smbpasswd -a Lina
+New SMB password:
+Retype new SMB password:
+Failed to add entry for user Lina.
+pi@raspberrypi:~ $ sudo nano /etc/samba/smb.conf
+pi@raspberrypi:~ $ /home/samba/profiles
+-bash: /home/samba/profiles: No such file or directory
+pi@raspberrypi:~ $ cd /home/samba/profiles
+-bash: cd: /home/samba/profiles: No such file or directory
+pi@raspberrypi:~ $ cd /home/samba/
+-bash: cd: /home/samba/: No such file or directory
+pi@raspberrypi:~ $ sudo cd /home/samba/profiles
+sudo: cd: command not found
+pi@raspberrypi:~ $ sudo /home/samba/profiles
+sudo: /home/samba/profiles: command not found
+pi@raspberrypi:~ $ sudo nano /etc/samba/smb.conf
+pi@raspberrypi:~ $ sudo nano /etc/samba/smb.conf
+pi@raspberrypi:~ $ mkdir /media/pi/RPI-3/Linas
+pi@raspberrypi:~ $ cd /media/pi/RPI-3/Linas
+pi@raspberrypi:/media/pi/RPI-3/Linas $ ls
+pi@raspberrypi:/media/pi/RPI-3/Linas $ cd /media/pi/RPI-3/
+pi@raspberrypi:/media/pi/RPI-3 $ ls
+files  Linas
+pi@raspberrypi:/media/pi/RPI-3 $ sudo systemctl restart smbd
+pi@raspberrypi:/media/pi/RPI-3 $ cd
+pi@raspberrypi:~ $ cd /media/pi/RPI-3/
+pi@raspberrypi:/media/pi/RPI-3 $ cd /media/pi/RPI-3/Linas
+pi@raspberrypi:/media/pi/RPI-3/Linas $ ls
+'Roshade Setup 3.1.1.exe'
+pi@raspberrypi:/media/pi/RPI-3/Linas $ cd
+pi@raspberrypi:~ $ nano "/media/pi/RPI-3/files/Webpage 1/index.html"
+pi@raspberrypi:~ $ nano "/media/pi/RPI-3/files/Webpage 1/style.css"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 5.4                                                                                              /media/pi/RPI-3/files/Webpage 1/style.css                                                                                                        
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #55d6aa;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
 .footer .footer-bottom {
     background: #343a40;
     color: #686868;
