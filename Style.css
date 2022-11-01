@@ -80,7 +80,7 @@ img {
     height: 40px;
     width: 100%;
     text-align: center;
-    position: relative;
+    position: static;
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
