@@ -83,7 +83,6 @@ p {
     font-size: 20px;
 }
 img {
-    filter : drop-shadow(0 0 30px #000);
     vertical-align: middle;
     margin-right: 30px;
 }
