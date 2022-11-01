@@ -32,8 +32,7 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
-
-    position: relative
+    position: relative;
 }
 
 nav a {
@@ -53,7 +52,6 @@ nav a::before {
     height: 5px;
     width: 100%;
     background-color: #444;
-
     position: absolute;
     top: 0;
     width: 0%;
@@ -85,9 +83,6 @@ p {
 img {
     vertical-align: middle;
     margin-right: 30px;
-}
-
-img {
     margin-left: 50px;
 }
 
