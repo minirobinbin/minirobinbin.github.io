@@ -68,6 +68,11 @@ body {
     padding: 0;
 }
 
+iframe {
+    position: absolute;
+    padding: auto;
+}
+
 img {
     vertical-align: middle;
     margin-right: 30px;
