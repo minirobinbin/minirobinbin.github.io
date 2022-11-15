@@ -82,12 +82,12 @@ img {
 body a {
     font-size: 20px;
     color: #FFFFFF;
-    padding: 50px;
+    text-align: 50px;
     text-decoration: none;
 }
 h1 {
     color: #FFFFFF;
-    padding: 50px; 
+    text-align: 50px; 
 }
 
 .footer .footer-bottom {
