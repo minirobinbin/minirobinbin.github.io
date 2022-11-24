@@ -73,23 +73,6 @@ iframe {
     padding: auto;
 }
 
-img {
-    vertical-align: middle;
-    margin-right: 30px;
-    margin-left: 50px;
-}
-
-body a {
-    font-size: 20px;
-    color: #FFFFFF;
-    text-align: 50px;
-}
-
-h1 {
-    color: #FFFFFF;
-    text-align: 50px; 
-}
-
 .footer .footer-bottom {
     background: #343a40;
     color: #686868;
