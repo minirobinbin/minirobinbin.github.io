@@ -73,6 +73,11 @@ iframe {
     padding: auto;
 }
 
+h1 {
+    color:#FFFFFF;
+    margin: 30px;
+}
+
 .footer .footer-bottom {
     background: #343a40;
     color: #686868;
