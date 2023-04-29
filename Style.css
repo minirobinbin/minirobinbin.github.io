@@ -7,7 +7,7 @@
   
 .navbar a {
     float: right;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +28,7 @@
     font-size: 17px;   
     border: none;
     outline: none;
-    color: white;
+    color: #FFFFFF;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -61,7 +61,7 @@
   
 .dropdown-content a {
     float: none;
-    color: white;
+    color: #FFFFFF;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
