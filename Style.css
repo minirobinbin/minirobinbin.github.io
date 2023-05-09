@@ -41,7 +41,7 @@
 }
 
 .navbar a:hover {
-    border-radius: 100%;
+    border-radius: 10%;
 }
   
 .dropdown-content {
