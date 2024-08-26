@@ -1,0 +1,131 @@
+.navbar {
+    background-color: #272626;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.navbar a {
+    float: right;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logo, .logo-pic {
+    position: absolute;
+    border-radius: 20%;
+}
+  
+.navbar .dropdown {
+    float: right;
+    overflow: hidden;
+}
+  
+.navbar .dropdown .dropbtn {
+    font-size: 17px;   
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #686868;
+    transition: ease 200ms;
+}
+
+.navbar a:hover {
+    border-radius: 10%;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #525252;
+    border-radius: 5%;
+    max-width: 450px;
+    /* Add a transition effect */
+    -webkit-transition: height 10.5s ease-out;
+    -moz-transition: height 10.5s ease-out;
+    -o-transition: height 10.5s ease-out;
+    transition: height 10.5s ease-in-out;
+    transition: ease-in 2s;
+
+}
+  
+.dropdown-content a {
+    float: none;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+    background-color: #272626;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: aliceblue; 
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    color: aliceblue; 
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+h1{
+    color: aliceblue; 
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    position: absolute;
+    padding: auto;
+}
+
+img {
+    vertical-align: middle;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.copy, footer, .site-map, .socials {
+    background-color: #343a40;
+    border: #343a40;
+    color: #686868;
+    position: static;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.copy, .site-map {
+    text-align: center;
+    font-size: 130%;
+}
+
+.socials {
+    right: 10px;
+    float: right;
+    font-size: 250%;
+    padding-right: 2%;
+}
